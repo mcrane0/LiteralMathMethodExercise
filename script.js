@@ -21,3 +21,18 @@ console.log(Math.PI);
 
 let randomNumber = Math.floor(Math.random() * 3) + 1;
 console.log(randomNumber); 
+
+
+// bonus
+
+let itGo = (((" Let It Go!").slice(1, 12).toUpperCase()) + " ").repeat(2); 
+console.log(itGo);
+
+let reindeers = "Reindeers are better than people.";
+reindeers = reindeers.replace(" ", "_").replace(" ", "_").replace(" ", "_").replace(" ", "_");
+console.log(reindeers);
+
+console.log(Math.SQRT2);
+
+let newRandomNumber = Math.floor(Math.random() * 17)+ 7;
+console.log(newRandomNumber);
